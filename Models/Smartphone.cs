@@ -9,10 +9,16 @@ namespace DesafioPOO.Models
 
        
 
-        protected Smartphone(string numero)
+        public Smartphone(string numero, string modelo, string imai, int memoria)
         {
             Numero = numero;
+            Modelo = modelo;
+            Imai = imai;
+            Memoria = memoria;
+
         }
+
+       
 
         public void Ligar()
         {
