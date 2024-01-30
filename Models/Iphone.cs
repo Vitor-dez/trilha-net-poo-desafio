@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     // TODO: Herdar da classe "Smartphone"
     public class Iphone : Smartphone
     {
-        public Iphone(string numero, string modelo, string imai, int memoria) : base(numero, modelo, imai, memoria)
+        public Iphone( string ddd, string numero, string modelo, string imai, int memoria) : base(ddd, numero, modelo, imai, memoria)
         {
             
         }
